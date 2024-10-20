@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "dev": "nodemon ",
+    "start": "nodemon --watch ./backend/app.mjs"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@swc/cli": "0.4.1-nightly.20240914",
+    "@swc/core": "^1.7.36",
+    "nodemon": "^3.1.7",
+    "rimraf": "^6.0.1"
+  }
+}
